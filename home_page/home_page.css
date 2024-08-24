@@ -67,3 +67,60 @@ header ul.last-links li:nth-child(2) a {
     color: rgb(255, 255, 255);
     border-radius: 5px;
 }
+
+
+
+
+
+.main-content {
+    padding: 0.8% 10%;
+}
+
+
+
+.main-content .first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.main-content .first-section .left {
+    width: 50%;
+}
+
+.main-content .first-section .left h1 {
+    font-size: 50px;
+    color: #08376b;
+    margin-bottom: 0.5em;
+}
+
+.main-content .first-section .left p {
+    font-size: 20px;
+    color: #5d5d5d;
+}
+
+.main-content .first-section .left button {
+    background-color: #08376b;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    padding: 0.8em 1em;
+    border: none;
+    border-radius: 10px;
+}
+
+.main-content .first-section .left button:hover {
+    cursor: pointer;
+    background-color: #08366bce;
+}
+
+
+
+.main-content .first-section .right {
+    width: 40%;
+    align-self: flex-end;
+}
+
+.main-content .first-section .right img {
+    width: 100%;
+}
