@@ -124,3 +124,77 @@ header ul.last-links li:nth-child(2) a {
 .main-content .first-section .right img {
     width: 100%;
 }
+
+
+
+
+
+.upcoming-events {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8em;
+}
+
+.upcoming-events .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upcoming-events .title-container h2 {
+    color: #08376b;
+    font-size: 2em;
+    margin: 0;
+}
+
+.upcoming-events .title-container a {
+    font-weight: 600;
+    color: #08458b;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.upcoming-events .title-container a:hover {
+    text-decoration: underline;
+}
+
+.upcoming-events .events {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upcoming-events .events .event-container {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    justify-content: center;
+    align-items: center;
+}
+
+.upcoming-events .events .event-container .img-container {
+    width: 95%;
+}
+
+.upcoming-events .events .event-container .img-container img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.upcoming-events .events .event-container .info {
+    width: 95%;
+}
+
+.upcoming-events .events .event-container .info h6 {
+    font-size: 1.4em;
+    margin: 0;
+    margin-top: 1em;
+}
+
+.upcoming-events .events .event-container .info p {
+    margin: 0;
+    margin-top: 0.6em;
+    color: rgb(112 112 112);
+    font-weight: 600;
+    font-size: 0.8em;
+}
