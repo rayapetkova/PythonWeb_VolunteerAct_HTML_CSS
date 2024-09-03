@@ -130,3 +130,24 @@ header ul.last-links li:nth-child(2) a {
 .category-info .right .more-info .one p {
     margin: 0;
 }
+
+
+
+
+
+.navigate-category {
+    margin-top: 3em;
+    padding: 2em 0;
+    border-top: solid 1px #dadada;
+    border-bottom: solid 1px #dadada;
+}
+
+.navigate-category a {
+    text-decoration: none;
+    color: #5f5f5f;
+    margin-right: 1.7em;
+}
+
+.navigate-category a:hover {
+    text-decoration: underline;
+}
