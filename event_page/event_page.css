@@ -73,7 +73,7 @@ header ul.last-links li:nth-child(2) a {
 
 
 .main-section {
-    margin: 2% 20%;
+    margin: 2% 15%;
 }
 
 
@@ -150,4 +150,32 @@ header ul.last-links li:nth-child(2) a {
 
 .navigate-category a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+.info-section {
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-between;
+}
+
+.info-section .left {
+    width: 55%;
+}
+
+.info-section .left h4 {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.info-section .left p {
+    font-size: 1.1em;
+
+}
+
+.info-section .right {
+    width: 35%;
 }
