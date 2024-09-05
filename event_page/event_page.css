@@ -179,3 +179,36 @@ header ul.last-links li:nth-child(2) a {
 .info-section .right {
     width: 35%;
 }
+
+.info-section .left .text-info {
+    height: 36%;
+    overflow: hidden;
+}
+
+.info-section .left > p {
+    color: #35c0ed;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.info-section .left > p:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.info-section .left .text-info::after {
+    content: "";
+    position: absolute;
+    bottom: 1%;
+    height: 15%;
+    width: 40%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 80%);
+    pointer-events: none;
+}
+
+.info-section .left > p img {
+    width: 2%;
+    height: 2%;
+    margin-left: 0.3em;
+}
