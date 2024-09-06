@@ -166,7 +166,6 @@ header ul.last-links li:nth-child(2) a {
 
 .info-section .left {
     width: 55%;
-    height: 80em;
     overflow: hidden;
 }
 
@@ -236,7 +235,7 @@ header ul.last-links li:nth-child(2) a {
     margin: 0;
 }
 
-.left .upcoming-events {
+.left .upcoming-events, .left .past-events {
     margin-top: 4em;
 }
 
@@ -299,4 +298,10 @@ header ul.last-links li:nth-child(2) a {
 
 .event-container .location p {
     margin: 0;
+}
+
+.past-events p, 
+.past-events h6, 
+.past-events .all-events p {
+    color: #707070;
 }
