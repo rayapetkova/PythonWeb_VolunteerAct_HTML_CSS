@@ -224,19 +224,29 @@ header ul.last-links li:nth-child(2) a {
 
 
 
+.left .events-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.left .events-title-container a {
+    color: #2e5c91;
+    margin: 0;
+}
+
 .left .upcoming-events {
     margin-top: 4em;
-    height: 100%;
+}
+
+.left .all-events {
+    height: 50em;
     overflow-y: scroll;
 }
 
-.left .upcoming-events::-webkit-scrollbar { 
+.left .all-events::-webkit-scrollbar { 
     display: none;  /* Safari and Chrome */
-}
-
-
-.left .upcoming-events h4 {
-    margin-bottom: 1em;
 }
 
 .event-container {
