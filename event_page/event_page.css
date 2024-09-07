@@ -179,10 +179,6 @@ header ul.last-links li:nth-child(2) a {
     line-height: 1.4em;
 }
 
-.info-section .right {
-    width: 35%;
-}
-
 .info-section .left .text-info {
     height: 17em;
     overflow: hidden;
@@ -295,4 +291,41 @@ header ul.last-links li:nth-child(2) a {
 .past-events h6, 
 .past-events .all-events p {
     color: #707070;
+}
+
+
+
+
+
+.info-section .right {
+    width: 35%;
+}
+
+.info-section .right .title-and-see-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-section .right .title-and-see-all h4 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.info-section .right .title-and-see-all a {
+    color: #2e5c91;
+}
+
+.info-section .right .members {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.info-section .right .members img {
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: 50%;
 }
