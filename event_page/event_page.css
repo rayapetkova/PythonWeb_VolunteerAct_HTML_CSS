@@ -124,3 +124,86 @@ header ul.last-links li:nth-child(2) a {
 .upper-section .host .more-info a.host-name:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 2% 15%;
+}
+
+.info-section .left {
+    width: 55%;
+    overflow: hidden;
+}
+
+.info-section .left h4 {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.info-section .left p {
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.info-section .left .text-info {
+    overflow: hidden;
+}
+
+
+
+
+
+.left .event-img-container {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.left .event-img-container img {
+    width: 100%;
+}
+
+.left .keywords-container {
+    display: flex;
+    gap: 0.8em;
+}
+
+.left .keywords-container p {
+    background-color: #35bfed6b;
+    padding: 0.3em 0.5em;
+    border-radius: 5px;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.info-section .right {
+    width: 35%;
+}
+
+.info-section .right .title-and-see-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-section .right .title-and-see-all h4 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.info-section .right .location-container {
+    background-color: rgb(255, 255, 255);
+}
