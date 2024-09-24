@@ -206,4 +206,20 @@ header ul.last-links li:nth-child(2) a {
 
 .info-section .right .location-container {
     background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border-radius: 15px;
+    width: 70%;
+    position: sticky;
+    top: 7em;
+}
+
+.info-section .right .location-container img {
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.info-section .right .location-container .box {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
 }
